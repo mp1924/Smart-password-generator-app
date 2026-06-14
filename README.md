@@ -1,4 +1,4 @@
-PASSWORD GENERATOR
+SMART PASSWORD GENERATOR APP
 
 This project generates random passwords to improve security and reduce predictable password usage.
 
