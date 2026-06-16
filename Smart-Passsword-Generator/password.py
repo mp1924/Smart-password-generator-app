@@ -1,4 +1,4 @@
-import random
+import secrets
 import string
 
 print("Smart Password Generator")
@@ -31,7 +31,7 @@ if len(char_pool) == 0:
 
 password = ""
 for i in range(length):
-    password += random.choice(char_pool)
+    password += secrets.choice(char_pool)
 print("\nGenerated Password:", password)
 
 def check_strength(password):
